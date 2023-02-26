@@ -1,5 +1,4 @@
 const { Client } = require('guilded.js');
-const { Collection } = require('@discordjs/collection');
 require('dotenv').config();
 
 const client = new Client({
@@ -9,7 +8,7 @@ const client = new Client({
 module.exports = client;
 
 // Global Variables
-client.commands = new Collection();
+client.commands = new Map();
 
 require('./handler')(client);
 
