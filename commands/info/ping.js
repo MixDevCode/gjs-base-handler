@@ -9,7 +9,7 @@ module.exports = {
      * @param {String[]} args 
      */
     run: async(client, message, args) => {
-        message.send('Loading data...').then( async (msg) => {
+        message.send('Loading data...').then(async (msg) => {
             msg.delete();
             return message.send(`🏓Latency is ${msg._createdAt - message._createdAt}ms.`);
         });

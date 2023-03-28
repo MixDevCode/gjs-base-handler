@@ -1,6 +1,6 @@
 {
   "name": "gjs-base-handler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A guilded.js base handler for bots!",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,9 @@
   "author": "MixDevCode",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/collection": "^1.4.0",
     "dotenv": "^16.0.3",
-    "glob": "^8.1.0",
-    "guilded.js": "^0.17.1"
+    "glob": "^7.1.7",
+    "guilded.js": "^0.20.0"
   }
 }
