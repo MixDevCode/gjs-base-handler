@@ -4,7 +4,7 @@ This repository contains a base handler bot for Guilded, using the Guilded.JS li
 ## Prerequisites
 Before using this bot, you will need:
 * Node.js installed on your machine. You can download it from the [official website](https://nodejs.org/).
-* A Guilded bot token. You can learn how to get one by following the instructions in [this file](./HOW-TO-GET-BOT-TOKEN.md).
+* A Guilded bot token. You can learn how to get one by following the instructions in [this article from the official website](https://support.guilded.gg/hc/en-us/articles/7135869418007-Guilded-API).
 
 ## Installation
 To use this handler, you need to follow these steps:
