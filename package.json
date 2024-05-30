@@ -19,6 +19,6 @@
     "@discordjs/collection": "^2.0.0",
     "dotenv": "^16.0.3",
     "glob": "^7.1.7",
-    "guilded.js": "^0.24.0"
+    "guilded.js": "^0.25.0"
   }
 }
